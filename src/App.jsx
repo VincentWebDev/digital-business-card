@@ -9,7 +9,7 @@ function App() {
     <div className="container">
       <div className="card-container">
         <Info />
-
+        {/* About and Interests components could have been one component */}
         <div className="content">
           <About />
           <Interests />
