@@ -1,12 +1,5 @@
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .container {
   font-family: "Inter", sans-serif;
-  color: white;
   width: 550px;
   height: 868px;
   border-radius: 10px;
@@ -15,6 +8,10 @@
   padding: 44px;
 }
 
+.container,
+.linkedin {
+  color: white;
+}
 .card-container {
   background-color: #1a1b21;
   width: 317px;
@@ -52,9 +49,14 @@ h1 {
   color: #f3bf99;
 }
 
+.website,
+h4 {
+  color: #f5f5f5;
+}
+
 .website {
   font-size: 10.24px;
-  color: #f5f5f5;
+
   line-height: 150%;
 }
 
@@ -86,7 +88,6 @@ h1 {
 
 .linkedin {
   background-color: #5093e2;
-  color: white;
   border: 1px solid #5093e2;
   display: flex;
   justify-content: center;
@@ -114,7 +115,6 @@ a:link {
 }
 
 h4 {
-  color: #f5f5f5;
   margin-bottom: 0;
 }
 .text {
